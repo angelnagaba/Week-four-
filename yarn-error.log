@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js app.test.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\angel\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\angel\AppData\Local\Programs\Python\Python37\;C:\Users\angel\AppData\Local\Microsoft\WindowsApps;;C:\Users\angel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\angel\AppData\Roaming\npm;C:\Users\angel\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Andela\API\package.json: Unexpected token } in JSON at position 150
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+      "name": "api",
+      "version": "1.0.0",
+      "description": "my first api",
+      "main": "index.js",
+      "scripts": {
+          "test": "jest",
+          "start": "sum.js"
+      },
+      "author": "Angel",
+      "license": "ISC",
+      "dependencies": {
+          "express": "^4.17.1",
+          "newsapi": "^2.4.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
